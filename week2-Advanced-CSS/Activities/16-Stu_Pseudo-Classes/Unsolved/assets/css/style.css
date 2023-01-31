@@ -38,9 +38,6 @@ nav a:hover {
   color: #fff;
 }
 
-.hover-link:hover {
-  display: none;
-}
 main {
   display: flex;
   flex: 1 1 0;

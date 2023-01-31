@@ -60,22 +60,9 @@ article p {
 }
 
 /* TODO: Style the term/phrase - underline, black text, grab cursor */
-span[data-descr] {
-color: black;
-text-decoration: underline;
-cursor: pointer;
-position: relative;
-}
 
 /* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
-span[data-descr]:hover::after {
-  color: white;
-  background-color: black;
-  content: attr(data-descr);
-  border-radius: 0;
-  font-size: 80%;
-  position: absolute;
-}
+
 aside {
   width: 25%;
 }
