@@ -19,7 +19,7 @@ function countdown() {
     if(timeLeft === 0) {
       clearInterval(timeInterval);
       displayMessage();
-      timer.textContent = '';
+      timerEl.textContent = '';
       
     }
   }, 1000);
