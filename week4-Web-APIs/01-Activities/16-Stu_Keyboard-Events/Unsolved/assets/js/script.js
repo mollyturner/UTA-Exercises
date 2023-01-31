@@ -3,6 +3,7 @@ function keydownAction(event) {
   console.log(event);
   document.querySelector('#key').textContent = event.key;
   document.querySelector('#code').textContent = event.code;
+  document.querySelector("#status").innerHTML = "KEYDOWN Event";
 }
 
 function keyupAction() {
