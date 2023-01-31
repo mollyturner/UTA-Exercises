@@ -1,13 +1,22 @@
 .lesson {
+  background-color: purple;
     width: 200px;
     height: 100px;
+    border: 1px solid black;
+    color: yellow;
   }
   
 .section-blue {
+  background-color: blue;
+  color: orange;
+  
 
 }
   
 .container {
+  background-color: black;
+  color: white;
+  
 
 }
 
@@ -16,5 +25,6 @@
 }
 
 #section-6 {
+  color: yellow;
 
 }
