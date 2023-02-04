@@ -6,6 +6,23 @@
   --light: #fffaf7;
 }
 
+body {
+  font-family: 'Itim', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Itim', cursive;
+  font-family: 'Orbitron', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+
 ::selection {
   color: var(--brown);
   background-color: var(--light);
