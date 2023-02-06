@@ -31,6 +31,14 @@ formEl.on('submit', handleFormSubmit);
 
 // Add Autocomplete widget here
 //
+$('#skill-name').autocomplete({
+  source: [ "c++", "java", "php", "coldfusion", "javascript", "asp", "ruby" ]
+});
 
 // Add Datepicker widget here
 //
+
+$('#datepicker').datepicker({
+  changeMonth: true,
+  changeYear: true,
+});
